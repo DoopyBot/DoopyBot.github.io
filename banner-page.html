@@ -13,7 +13,9 @@
             width: auto;
             height: auto;
         }
-
+        p {
+            color: darkorange;
+        }
         body {
             text-align: center;
         }
@@ -24,12 +26,22 @@
 
         #o {
             border: solid 2px orange;
-            width: 400px;
+            width: 250px;
             background-color: orange;
-            padding: 15px;
+            padding: 10px;
             border-radius: 30px;
+            text-align: 
         }
-
+        #email {
+            border-bottom-left-radius: 50px;
+            border-top-left-radius: 50px;
+            padding: 3px;
+        }
+        #btn {
+            border-bottom-right-radius: 50px;
+            border-top-right-radius: 50px;
+            padding: 3px;
+        }
     </style>
 </head>
 
@@ -38,22 +50,22 @@
         <br>
         <center>
             <div class='inline-block'>
-                <big><big><big><big><big><big><big><big><strong><strong><br>Teens Programming<br><p> </p></strong></strong></big></big></big></big></big></big></big></big>
+                <big><big><big><big><big><big><big><big><strong><strong><p>Teens Programming</p></strong></strong></big></big></big></big></big></big></big></big>
                 <seperator>
                     <hr><br>
                 </seperator>
                 <subtitle>
                     <big>
-                        <p>
+                        <f>
                             Supporting a well-spent life, a bright career and entrepreneurship PromotingSTEM education Science - Technology - Engineering - Math :)
-                        </p>
+                        </f>
                     </big><br>
                 </subtitle>
-                <center>
-                    <Form id='o'>
-                        <input type="text">
-                        <input type="submit">
-                    </Form>
+                <center><br><br>
+                    <form id='o'>
+                        <input id="email"type="text" >
+                        <input id="btn" type="submit">
+                    </form>
                 </center>
                 <br><br>
             </div>

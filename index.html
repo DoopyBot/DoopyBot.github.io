@@ -5,28 +5,120 @@
     <meta charset="UTF-8">
     <title>wHAtEveR!1</title>
     <style>
-        body {
-            font-family: monospace;
-            text-align: center;
-            background-image: url(https://images.unsplash.com/photo-1491961713439-c6a3e7368eff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
-            background-size: cover;
-            background-repeat: no-repeat;
-            border: solid cadetblue 10px;
+        img {
+            width: 400px;
+            height: 400px;
         }
 
+        header {
+            border: solid darkcyan;
+            background-color: darkcyan;
+            font-family: monospace;
+            color: white;
+            text-align: center;
+        }
+
+        #hr1 {
+            height: 4px;
+            background-color: white;
+            margin-left: 400px;
+            margin-right: 400px
+        }
+
+        #hr2 {
+            height: 4px;
+            background-color: black;
+            margin-left: 400px;
+            margin-right: 400px
+        }
+
+        div {
+            font-family: monospace;
+        }
+
+        contact {
+            border: solid white;
+            background-color: white;
+            font-family: monospace;
+            color: black;
+            text-align: center;
+        }
+
+        #input {
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            height: 30px;
+            width: 500px;
+        }
+
+        textarea {
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            width: 500px;
+            height: auto
+        }
+
+        #btn {
+            width: 100px;
+            height: 50px;
+            border-color: darkcyan;
+            border-bottom-left-radius: 10px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            background-color: darkcyan;
+            color: white;
+            font-size: 20px;
+            font-family: monospace;
+            border-bottom-style:hidden
+        }
     </style>
 </head>
 
 <body>
-    <big><big>
-            <h1> Today is March 11th 2022</h1>
-        </big></big>
     <!--    cd /c/_a/DoopyBot.github.io/-->
     <!--    git add .-->
     <!--    git commit -m "first commit"-->
     <!--    git config --global user.email 'ruobinwanghd@gmail.com'-->
     <!--    git config --global user.name 'DoopyBot'-->
     <!--    git push-->
-</body>
-
-</html>
+    <header>
+        <center><img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/avataaars.svg" alt=""></center>
+        <br>
+        <p> </p>
+        <h1><big><big><big><big><big><big><big><strong>START BOOTSTRAP</strong></big></big></big></big></big></big></big></h1>
+        <br>
+        <hr id="hr1">
+        <br>
+        <p> </p>
+        <div><big><big><big><big>Graphic Artist - Web Designer - Illustrator</big></big></big></big>
+        </div>
+        <br><br><br><br><br>
+    </header>
+    <contact>
+        <br><br><br>
+        <h2><big><big><big><big><big><big><big><big>CONTACT ME</big></big></big></big></big></big></big></big></h2>
+        <br>
+        <p> </p>
+        <hr id="hr2">
+        <br>
+        <p> </p><br><br>
+        <center>
+            <input type="text" id="input" placeholder="Full name">
+            <br>
+            <p> </p><br>
+            <input type="text" id="input" placeholder="Email adress">
+            <br>
+            <p> </p><br>
+            <input type="text" id="input" placeholder="Phone number">
+            <br><br><br><br><br>
+            <textarea name="" id="textarea" rows="inf" placeholder="Message"></textarea>
+            <br><br><br>
+            <input type="submit" id="btn">
+            <br><br><br><br><br><br><br><br><br>
+        </center>
+    
+    </contact>
+</body></html>

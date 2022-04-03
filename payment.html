@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        fieldset {
+            width: 800px;
+            text-align: left;
+        }
+
+        #height {
+            height: 30px;
+            width: 300px;
+        }
+
+        #height2 {
+            height: 35px;
+            width: 310px;
+        }
+
+        textarea {
+            /*            margin-left: -659px;*/
+            height: 200px;
+            width: 820px;
+        }
+
+        #btn {
+            border: solid grey;
+            height: 40px;
+            width: 100px;
+            border-bottom-left-radius: 10px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            background: mediumblue;
+            font-family: monospace;
+            color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+    <center>
+        <fieldset>
+            <legend><big><big>Payment information</big></big></legend>
+            <center><label for=""><big>Name </big></label>
+                <input type="name" id="height">
+                <p> </p>
+                <label for=""><big>Email </big></label>
+                <input type="email" id="height">
+                <p> </p>
+                <label for=""><big>Phone </big></label>
+                <input type="text" id="height">
+                <br>
+                <p> </p>
+                <label for=""><big>City: </big></label>
+                <select name="city" id="height2">
+                    <option value="Toronto">Toronto</option>
+                    <option value="Regina">Regina</option>
+                    <option value="London">London</option>
+                </select>
+                <br>
+                <p> </p>
+                <label for=""><big>Payment opinions:</big></label>
+                <payment_opinions>
+                    <input type="radio" name='day'><big>Master card</big>
+                    <input type="radio" name='day'><big>Visa card</big>
+                    <input type="radio" name='day'><big>Paypal</big>
+                </payment_opinions>
+                <br>
+            </center>
+            <p> </p>
+        </fieldset>
+        <p> </p>
+        <textarea name="please write your comments" id="textarea" cols="inf" rows="inf"></textarea>
+        <br>
+        <input type="submit" id="btn">
+    </center>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #container {
+            border: solid red;
+            width: 400px;
+            height: 400px;
+            position: relative;
+        }
+
+        .item {
+            border: solid;
+            width: 100px;
+            height: 100px;
+        }
+
+        #item1 {
+            /*            default position value*/
+            /*            position static;*/
+            position: relative;
+
+            /*            relative is its original position*/
+            right: 50px
+                /*            top: 150px*/
+        }
+
+        html {
+            border: solid green;
+            margin-right: 80px;
+        }
+
+        item2 {
+            /*            look for a closest container that has non-static position*/
+            position: absolute;
+            right: 50px
+        }
+        
+        item3 {
+            position: fixed;
+            right: 100px
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+       <!--    relative vs absolute-->
+    <!--    1. relative not free space
+   2. relative is relative to its original position. absolute relative to its closest non-static container -->
+        <!--        .item#item1+.item#item2+.item#item3-->
+        <div class="item" id="item1">relative</div>
+        <div class="item" id="item2">absolute</div>
+        <div class="item" id="item3">fixed</div>
+    </div>
+</body>
+
+</html>
