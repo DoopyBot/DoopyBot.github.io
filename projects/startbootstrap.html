@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>wHAtEveR!1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        h1 {
+            font-size: 100px;
+            margin-top: 50px;
+        }
+
+        #headlines {
+            font-size: 70px;
+            margin-bottom: 40px;
+            text-align: center;
+            margin-top: 83px;
+        }
+
+        div {
+            font-size: 30px;
+            margin-bottom: 100px
+        }
+
+        #text1 {
+            border: hidden;
+            width: 450px;
+            font-size: 33.5px;
+            margin-right: 10px;
+            margin-left: 762px;
+            margin-bottom: 50px;
+            text-align: left;
+            float: left;
+        }
+
+        #text2 {
+            border: hidden;
+            width: 450px;
+            font-size: 33.5px;
+            margin-left: 10px;
+            margin-right: 763px;
+            margin-bottom: 50px;
+            text-align: left;
+            float: right;
+        }
+
+        #img {
+            width: 400px;
+            height: 400px;
+        }
+
+        .pictures {
+            width: 555px;
+            height: auto;
+            border-radius: 10px;
+            margin-left: 25px;
+            margin-right: 25px;
+            margin-bottom: 70px;
+            cursor: pointer;
+        }
+
+        header {
+            border: solid #1abc9d;
+            background-color: #1abc9d;
+            color: white;
+            text-align: center;
+            margin-bottom: 100px
+        }
+
+        footer {
+            width: 2540px;
+            height: auto;
+            background-color: rgb(50, 62, 83);
+            color: white;
+            padding-top: 100px;
+            margin-top: 100px
+        }
+
+        contact {
+            border: solid white;
+            background-color: white;
+            color: black;
+            text-align: center;
+        }
+
+        portfolio {
+            border: solid white;
+            background-color: white;
+            color: black;
+            text-align: center;
+        }
+
+        about {
+            width: 2523px;
+            border: solid #1abc9d;
+            background-color: #1abc9d;
+            color: white;
+            text-align: center;
+            margin-bottom: 100px;
+            display: inline-block;
+            padding-right: 50px
+        }
+
+        #input {
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: solid 1px;
+            font-size: 20px;
+            height: 30px;
+            width: 500px;
+            margin-bottom: 50px;
+        }
+
+        textarea {
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: solid 1px;
+            font-family: sans-serif;
+            font-size: 20px;
+            width: 500px;
+            margin-bottom: 50px;
+            height: auto;
+            resize: vertical
+        }
+
+        #btn {
+            width: 110px;
+            height: 70px;
+            border-bottom-left-radius: 10px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border: hidden;
+            background-color: mediumaquamarine;
+            color: white;
+            font-size: 20px;
+            margin-right: 400px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .seperator hr {
+            width: 115px;
+            height: 4px;
+            background-color: white;
+            border: none;
+            display: inline-block;
+            border-radius: 4px;
+            margin-bottom: 0px
+        }
+
+        /* icon is same as font */
+        .seperator i {
+            color: white;
+            font-size: 48px;
+            vertical-align: middle;
+            padding: 0 12px;
+        }
+
+        .black i {
+            color: black;
+        }
+
+        .black hr {
+            background-color: black;
+        }
+
+        #download_btn {
+            height: 70px;
+            width: 270px;
+            border-radius: 10px;
+            background-color: #1abc9d;
+            border: solid white 1px;
+            color: white;
+            padding: 0 12px;
+            font-size: 26px;
+            margin-top: 30px;
+            margin-right: 1117px;
+            float: right;
+            margin-bottom: 100px;
+            cursor: pointer;
+        }
+
+        #dwn {
+            padding-right: 18px
+        }
+
+        .titles2 {
+            font-size: 37px;
+            float: left
+        }
+
+        /*
+        #h5 {    
+            border: solid white;
+            margin-left: 445px;
+            margin-right: 2633px;
+            float: left
+        }
+*/
+
+        .buttons {
+            width: 91px;
+            height: 91px;
+            border-radius: 67px;
+            font-size: 40px;
+            font-family: sans-serif;
+            border: solid white 3px;
+            background-color: rgb(50, 62, 83);
+            color: white;
+            margin-left: 12px;
+            padding-top: 1px;
+            margin-bottom: 63px;
+            cursor: pointer
+        }
+
+        #h6 {
+            border: hidden;
+            margin-right: 1098px;
+            display: inline-block;
+            float: right;
+        }
+
+        #h7 {
+            border: hidden;
+            margin-right: -1094px;
+            display: inline-block;
+            float: right;
+        }
+
+        #h5 {
+            border: hidden;
+            margin-left: 447px;
+            display: inline-block;
+            float: left;
+        }
+
+        #box_of_buttons {
+            margin-right: 131px;
+            margin-left: 1051px;
+        }
+
+        #info {
+            font-family: sans-serif;
+            margin-top: 97px;
+            font-size: 22px;
+            text-align: center;
+            margin-right: 1458px;
+            margin-top:
+        }
+
+        #copyright {
+            background: rgb(42, 48, 57);
+            color: white;
+            font-family: sans-serif;
+            text-align: center;
+            font-size: 15px;
+            height: 59px;
+            padding-top: 41px
+        }
+
+        #link {
+            color: #1abc9d;
+            cursor: pointer;
+        }
+
+        #info2 {
+            font-size: 19px;
+            text-align: center;
+            margin-left: 200px;
+        }
+
+        nav {
+            background-color: #2c3d50;
+        }
+
+        #mainNav a {
+            color: white;
+            font-size: 21px;
+        }
+
+        .navbar-toggler {
+            background-color: #1ebc9d;
+            border-radius: 8px;
+            font-size: 14px;
+            padding: 12px 16px;
+        }
+
+        .navbar-toggler span {
+            color: white;
+        }
+
+        #mainNav a.nav-link {
+            font-size: 17px;
+            color: white;
+            padding: 16px auto;
+        }
+
+        #mainNav a.nav-link:hover {
+            color: #1ebc9d;
+        }
+
+        #mainNav {
+            padding: 15px 13%;
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id='mainNav' class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-xxl">
+            <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+            <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span>MENU</span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse justify-content-end navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#portolio">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/avataaars.svg" alt="" id="img">
+        <br>
+        <p> </p>
+        <h1>START BOOTSTRAP</h1>
+        <br>
+        <div class="seperator">
+            <hr>
+            <i class="fa-solid fa-star"></i>
+            <hr>
+        </div>
+        <br>
+        <p> </p>
+        <div>Graphic Artist - Web Designer - Illustrator
+        </div>
+    </header>
+    <portfolio>
+        <h2 id="headlines">PORTFOLIO</h2>
+        <div class="seperator black">
+            <hr>
+            <i class="fa-solid fa-star"></i>
+            <hr>
+        </div>
+        <center>
+            <images id=images>
+                <a href="LOG_CABIN.html"><img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png" alt="" class="pictures"></a>
+                <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png" alt="" class="pictures">
+                <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/circus.png" alt="" class="pictures"><br>
+                <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/game.png" alt="" class="pictures special">
+                <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/safe.png" alt="" class="pictures">
+                <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/submarine.png" alt="" class="pictures">
+            </images>
+        </center>
+    </portfolio>
+    <about>
+        <h3 id="headlines">ABOUT</h3>
+        <div class="seperator">
+            <hr>
+            <i class="fa-solid fa-star"></i>
+            <hr>
+        </div>
+        <p id="text1">
+            Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
+        </p>
+        <p id=text2>
+            You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
+        </p>
+        <center>
+            <button id="download_btn"><i class="fa fa-download" id="dwn"></i>Free Download</button>
+        </center>
+    </about>
+    <contact>
+        <br><br><br>
+        <h4 id="headlines">CONTACT ME</h4>
+        <br>
+        <p> </p>
+        <div class="seperator black">
+            <hr>
+            <i class="fa-solid fa-star"></i>
+            <hr>
+        </div>
+        <br>
+        <p> </p><br><br>
+        <center>
+            <input type="text" id="input" placeholder="Full name"><br>
+            <input type="text" id="input" placeholder="Email adress"><br>
+            <input type="text" id="input" placeholder="Phone number"><br>
+            <textarea name="" id="textarea" placeholder="Message"></textarea><br>
+            <input type="submit" id="btn">
+        </center>
+    </contact>
+    <footer>
+        <location>
+            <h5 class="titles2" id="h5">LOCATION</h5>
+
+            <h6 class="titles2" id="h6">AROUND THE WEB</h6>
+            <h6 class="titles2" id="h7">ABOUT FREELANCER</h6>
+            <div id=info><b>2215 John Daniel Drive <br>
+                    Clark, MO 65243</b></div>
+            <buttons id="box_of_buttons">
+
+                <b><button class="buttons"><b>f</b></button></b>
+                <b><button class="buttons"><i class="fa-brands fa-twitter"></i></button></b>
+                <b><button class="buttons"><b>in</b></button></b>
+                <b><button class="buttons"><i class="fa-solid fa-basketball"></i></button></b>
+            </buttons>
+            <info2 id="info2"><b>Freelance is a free to use, MIT licensed <br> Bootstrap theme created by <a id="link" href="">Start Bootstrap</a>.</b></info2>
+        </location>
+    </footer>
+    <copyright>
+        <b>
+            <p id="copyright">Copyright &copy; Your Website 2022</p>
+        </b>
+    </copyright>
+</body></html>

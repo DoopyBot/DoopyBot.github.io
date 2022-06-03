@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        p {
+            font-size: 30px;
+            border: solid;
+        }
+        
+/*        select a position which is before everything in p*/
+        p:before {
+            content: '*';
+        }
+        
+        p:after {
+            content: '>>>'
+        }
+        
+        div:before {
+            content: '';
+            border: solid red;
+            display: inline-block;
+            background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/1200px-Vimlogo.svg.png);
+            background-size: 50px;
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+   
+    <p>Stay Angry</p>
+    <p>Stay Foolish</p>
+    <p>Never Settledown</p>
+<!--    -->
+    <div>Play game is ok</div>
+    <div>Talk with Frieds is fun</div>
+    <div>Watch movies and eat nachos</div>
+    
+</body></html>

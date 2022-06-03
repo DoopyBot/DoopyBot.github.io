@@ -6,39 +6,34 @@
     <title>Document</title>
     <style>
         section {
-            float: left;
             border: solid white;
             height: 458px;
             width: 458px;
+        }
+
+        section: first-child {
+            float: left;
+            clear: left;
             background: linear-gradient(135deg, darkcyan, white);
         }
 
-        section2 {
+        section:nth-child(2) {
             float: right;
-            border: solid white;
-            height: 458px;
-            width: 458px;
+            clear: right;
             background: linear-gradient(225deg, darkcyan, white);
         }
 
-        section3 {
+        section:nth-child(3) {
             float: left;
             clear: left;
-            border: solid white;
-            height: 458px;
-            width: 458px;
             background: linear-gradient(45deg, darkcyan, white);
         }
 
-        section4 {
+        section:nth-child(4) {
             float: right;
             clear: right;
-            border: solid white;
-            height: 458px;
-            width: 458px;
             background: linear-gradient(315deg, darkcyan, white);
         }
-
     </style>
 </head>
 
@@ -48,6 +43,4 @@
     <br>
     <section3></section3>
     <section4></section4>
-</body>
-
-</html>
+</body></html>

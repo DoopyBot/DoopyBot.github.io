@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <Style>
+        ul {
+            font-size: 30px
+        }
+        
+        .second {
+            color: orange;
+        }
+        
+        li {
+            color: hotpink !important;
+        }
+        
+        #sec {
+            color: red;
+        }
+    </Style>
+</head>
+<body>
+    
+<!--    secificity-->
+<!--   important > inline-style > id > class > tag-->
+    <ul>
+        <li>Hiking</li>
+        <li id="sec" class="second" style="color: deepskyblue">Juggling</li>
+        <li>Talk with Friends</li>
+    </ul>
+    
+</body>
+</html>

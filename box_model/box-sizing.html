@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>box-sizing</title>
+    <style>
+        #container {
+            border: solid;
+            height: 400px;
+            width: 600px;
+        }
+
+        #left,
+        #right {
+            width: 300px;
+            height: 300px;
+        }
+
+        #left {
+            background-color: lime;
+            float: left;
+            border: solid 10px;
+            padding: 140.0156px;
+            /*       */
+            box-sizing: border-box
+        }
+
+        #right {
+            background-color: deepskyblue;
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--    #container>.#left+#right-->
+    <div id="container">
+        <div id="left"></div>
+        <div id="right"></div>
+    </div>
+
+</body></html>

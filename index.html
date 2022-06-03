@@ -11,25 +11,28 @@
         }
 
         header {
-            border: solid darkcyan;
-            background-color: darkcyan;
+            border: solid mediumaquamarine;
+            background-color: mediumaquamarine;
             font-family: monospace;
             color: white;
             text-align: center;
+            margin: 0px
         }
 
         #hr1 {
+            border: hidden;
             height: 4px;
             background-color: white;
-            margin-left: 400px;
-            margin-right: 400px
+            margin-left: 500px;
+            margin-right: 500px
         }
 
         #hr2 {
+            border: hidden;
             height: 4px;
             background-color: black;
-            margin-left: 400px;
-            margin-right: 400px
+            margin-left: 500px;
+            margin-right: 500px
         }
 
         div {
@@ -48,6 +51,9 @@
             border-top: none;
             border-left: none;
             border-right: none;
+            border-bottom: solid 1px;
+            font-family: monospace;
+            font-size: 20px;
             height: 30px;
             width: 500px;
         }
@@ -56,24 +62,28 @@
             border-top: none;
             border-left: none;
             border-right: none;
+            border-bottom: solid 1px;
+            font-family: monospace;
+            font-size: 20px;
             width: 500px;
-            height: auto
+            width max-width: 501px;
+            width min-width: 499px;
+            height: auto;
         }
 
         #btn {
-            width: 100px;
-            height: 50px;
-            border-color: darkcyan;
+            width: 110px;
+            height: 70px;
             border-bottom-left-radius: 10px;
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
             border-bottom-right-radius: 10px;
-            background-color: darkcyan;
+            border: hidden;
+            background-color: mediumaquamarine;
             color: white;
             font-size: 20px;
             font-family: monospace;
-            border-bottom-style:hidden
-        }
+            margin-right: 400px;
     </style>
 </head>
 
@@ -114,11 +124,13 @@
             <p> </p><br>
             <input type="text" id="input" placeholder="Phone number">
             <br><br><br><br><br>
-            <textarea name="" id="textarea" rows="inf" placeholder="Message"></textarea>
+            <textarea name="" id="textarea" placeholder="Message"></textarea>
             <br><br><br>
             <input type="submit" id="btn">
             <br><br><br><br><br><br><br><br><br>
         </center>
-    
+
     </contact>
-</body></html>
+</body>
+
+</html>

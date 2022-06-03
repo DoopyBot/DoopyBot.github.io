@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #container {
+            height: 300px;
+            border: solid;
+        }
+        
+        .item {
+            width: 300px;
+            height: 100px;
+            background-color: lime;
+/*            width, minwidth, maxwidth*/
+/*            maxwidth override width*/
+            max-width: 200px;
+            
+/*            minwidth override maxwidth*/
+            min-width: 400px;
+            min-width: 1000%
+        }
+        
+        .item1 {
+            background-color: red;
+            width: 50%;
+            height: 100px;
+            max-width: 700px;
+            min-width: 600px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--    #container>.item-->
+    <div id="container">
+        <div class="item"></div>
+        <div class="item1"></div>
+    </div>
+
+</body></html>
